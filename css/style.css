@@ -1,0 +1,212 @@
+/* variables */
+:root {
+    --source: 'Source Sans Pro', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+
+
+    /* colors */
+    --dark: #414141;
+    --orange: #F15A46;
+    --dark1: #111111;
+    --muted: #6E6E6E;
+    --inactive: #F3F3F3;
+
+
+    /* gaps */
+    --hundred: 100px;
+    --sixty: 60px;
+    --fifty: 50px;
+    --seventy: 70px;
+
+
+    /* sizes */
+    --twelve: 12px;
+    --twentyTwo: 22px;
+    --twentyFour: 24px;
+    --twenty: 20px;
+    --thirty: 30px;
+    --thirtyFour: 34px;
+    --fourty: 40px;
+    --fourtyFive: 45px;
+}
+
+
+/* universal */
+
+.source {
+    font-family: var(--source)
+}
+
+.inter,
+* {
+    font-family: var(--inter)
+}
+
+.roboto {
+    font-family: var(--roboto)
+}
+
+.fs-22 {
+    font-size: var(--twentyTwo);
+}
+
+
+
+/* header part */
+.img-fluid.logo {
+    height: var(--fifty);
+}
+
+.dark {
+    color: var(--dark) !important;
+}
+
+.nav-link {
+    border-top: 2px solid transparent;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    border-top: 2px solid var(--orange);
+}
+
+.btn-orange {
+    background-color: var(--orange) !important;
+}
+
+/* banner area */
+.header-title-xl {
+    font-size: var(--seventy);
+}
+
+.title {
+    color: var(--dark1);
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.subtitle-xl {
+    font-size: 32px;
+}
+
+.py-100 {
+    padding-top: var(--hundred);
+    padding-bottom: var(--hundred);
+}
+
+.btn-dark {
+    font-size: var(--twentyTwo);
+    background-color: var(--dark1) !important;
+}
+
+.mt-60 {
+    margin-top: var(--sixty);
+}
+
+.mb-50 {
+    margin-bottom: var(--fifty);
+}
+
+.fs-28 {
+    font-size: 28px;
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+/* counter */
+.counter-text {
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.fs-20 {
+    font-size: var(--twenty);
+}
+
+
+/* services */
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.fs-34 {
+    font-size: var(--thirtyFour);
+}
+
+.fw-semibold.fs-34.text-white.pt-3.mb-5 {
+    margin-bottom: 0 !important;
+    height: 120px;
+}
+
+
+/* help */
+.fs-24 {
+    font-size: var(--twentyFour);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.mt-50 {
+    margin-top: var(--fifty);
+}
+
+.fs-30 {
+    font-size: var(--thirty);
+}
+
+.fs-40 {
+    font-size: var(--fourty);
+}
+
+.btn-inactive {
+    background-color: var(--inactive);
+    color: var(--dark);
+}
+
+.btn-inactive:hover,
+.btn-inactive.active {
+    background-color: var(--orange) !important;
+    color: white !important;
+}
+
+
+/* be with lskit */
+.fs-45 {
+    font-size: var(--fourtyFive);
+}
+
+
+/* cards */
+.fs-12 {
+    font-size: var(--twelve);
+}
+
+
+/* working process */
+form input {
+    height: 55px;
+}
+
+
+
+/* figure */
+.fs-50 {
+    font-size: var(--fifty);
+}
+
+
+/* ready to grow */
+.ready-to-grow.py-5 .container {
+    background: url("../img/lines.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
