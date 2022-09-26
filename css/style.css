@@ -30,6 +30,10 @@
     --thirtyFour: 34px;
     --fourty: 40px;
     --fourtyFive: 45px;
+
+
+    /* percentages */
+    --twentyP: 20%;
 }
 
 
@@ -209,4 +213,11 @@ form input {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom left;
+}
+
+
+/* steps */
+.item {
+    width: var(--twentyP);
+    padding: var(--twentyFour);
 }
