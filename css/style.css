@@ -363,3 +363,46 @@ span.text-orange.bg-white {
         max-width: 100%;
     }
 }
+
+
+@media screen and (max-width: 767px) {
+    .header-title-xm {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .py-100 {
+        padding-top: var(--fifty);
+        padding-bottom: var(--fifty);
+    }
+
+    .header-title-md {
+        font-size: 30px !important;
+    }
+
+    .fs-40 {
+        font-size: var(--twentyFour);
+    }
+
+    .ps-5 {
+        padding-left: 1rem !important;
+    }
+
+    .fs-45 {
+        font-size: var(--twentyFour);
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-group input {
+        width: 100% !important;
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+
+    .item {
+        width: 100% !important;
+    }
+}
