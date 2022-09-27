@@ -9,6 +9,7 @@
     /* colors */
     --dark: #414141;
     --orange: #F15A46;
+    --orange1: #E3402B;
     --dark1: #111111;
     --muted: #6E6E6E;
     --inactive: #F3F3F3;
@@ -55,6 +56,11 @@
 
 .fs-22 {
     font-size: var(--twentyTwo);
+}
+
+body,
+html {
+    overflow-x: hidden;
 }
 
 
@@ -230,6 +236,26 @@ form input {
 }
 
 /* strategy */
-.strategy {
+.strategy,
+.bg-orange-1 {
     background-color: var(--strategy);
+}
+
+span.text-orange.bg-white {
+    display: flex;
+    width: 50px;
+    height: 65px;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.bg-orange-1 {
+    background-color: var(--orange1);
+}
+
+.col-md-6.p-0.bg-orange.py-100 {
+    padding: 50px 0 !important;
 }
