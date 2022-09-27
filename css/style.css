@@ -12,6 +12,7 @@
     --dark1: #111111;
     --muted: #6E6E6E;
     --inactive: #F3F3F3;
+    --strategy: #F47F6F;
 
 
     /* gaps */
@@ -222,6 +223,13 @@ form input {
     padding: var(--twentyFour);
 }
 
+
+/* cards */
 .cardds.py-100 .card p {
     height: 250px;
+}
+
+/* strategy */
+.strategy {
+    background-color: var(--strategy);
 }
