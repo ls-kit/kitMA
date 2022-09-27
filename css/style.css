@@ -221,3 +221,7 @@ form input {
     width: var(--twentyP);
     padding: var(--twentyFour);
 }
+
+.cardds.py-100 .card p {
+    height: 250px;
+}
