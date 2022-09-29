@@ -333,6 +333,16 @@ span.text-orange.bg-white {
     color: white !important;
 }
 
+/* documentation */
+.hero.shape-hero.py-100 {
+    background-color: #F15A46;
+    background-image: url("../img/shape.png");
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 
